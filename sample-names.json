@@ -1,0 +1,179 @@
+{
+  "names": [
+    {
+      "id": 1,
+      "name": "Emma",
+      "gender": "Girl",
+      "origin": "German",
+      "meaning": "Universal, whole. A timeless classic that has remained popular across generations."
+    },
+    {
+      "id": 2,
+      "name": "Liam",
+      "gender": "Boy",
+      "origin": "Irish",
+      "meaning": "Strong-willed warrior and protector. Irish short form of William."
+    },
+    {
+      "id": 3,
+      "name": "Olivia",
+      "gender": "Girl",
+      "origin": "Latin",
+      "meaning": "Olive tree, symbolizing peace and beauty. Popularized by Shakespeare."
+    },
+    {
+      "id": 4,
+      "name": "Noah",
+      "gender": "Boy",
+      "origin": "Hebrew",
+      "meaning": "Rest and comfort. Biblical name meaning 'rest' or 'peace'."
+    },
+    {
+      "id": 5,
+      "name": "Ava",
+      "gender": "Girl",
+      "origin": "Latin",
+      "meaning": "Life or bird. Simple, elegant, and easy to pronounce."
+    },
+    {
+      "id": 6,
+      "name": "Elijah",
+      "gender": "Boy",
+      "origin": "Hebrew",
+      "meaning": "The Lord is my God. Strong biblical name with modern appeal."
+    },
+    {
+      "id": 7,
+      "name": "Sophia",
+      "gender": "Girl",
+      "origin": "Greek",
+      "meaning": "Wisdom. Elegant name with international appeal."
+    },
+    {
+      "id": 8,
+      "name": "James",
+      "gender": "Boy",
+      "origin": "Hebrew",
+      "meaning": "Supplanter. Classic, enduring name that never goes out of style."
+    },
+    {
+      "id": 9,
+      "name": "Isabella",
+      "gender": "Girl",
+      "origin": "Hebrew",
+      "meaning": "Pledged to God. Romantic and feminine with Italian flair."
+    },
+    {
+      "id": 10,
+      "name": "Benjamin",
+      "gender": "Boy",
+      "origin": "Hebrew",
+      "meaning": "Son of the right hand. Strong, traditional name with friendly nickname Ben."
+    },
+    {
+      "id": 11,
+      "name": "Mia",
+      "gender": "Girl",
+      "origin": "Italian",
+      "meaning": "Mine or beloved. Short, sweet, and internationally recognized."
+    },
+    {
+      "id": 12,
+      "name": "Lucas",
+      "gender": "Boy",
+      "origin": "Latin",
+      "meaning": "Light-giving. Bright, cheerful name with universal appeal."
+    },
+    {
+      "id": 13,
+      "name": "Charlotte",
+      "gender": "Girl",
+      "origin": "French",
+      "meaning": "Free woman. Elegant royal name with vintage charm."
+    },
+    {
+      "id": 14,
+      "name": "Mason",
+      "gender": "Boy",
+      "origin": "English",
+      "meaning": "Stone worker. Modern occupational name with strong sound."
+    },
+    {
+      "id": 15,
+      "name": "Amelia",
+      "gender": "Girl",
+      "origin": "German",
+      "meaning": "Work, industrious. Vintage name experiencing a modern revival."
+    },
+    {
+      "id": 16,
+      "name": "Ethan",
+      "gender": "Boy",
+      "origin": "Hebrew",
+      "meaning": "Strong, firm, enduring. Popular modern choice with substance."
+    },
+    {
+      "id": 17,
+      "name": "Harper",
+      "gender": "Girl",
+      "origin": "English",
+      "meaning": "Harp player. Musical name that's both modern and timeless."
+    },
+    {
+      "id": 18,
+      "name": "Alexander",
+      "gender": "Boy",
+      "origin": "Greek",
+      "meaning": "Defender of mankind. Classic, powerful name with royal history."
+    },
+    {
+      "id": 19,
+      "name": "Evelyn",
+      "gender": "Girl",
+      "origin": "English",
+      "meaning": "Wished for child. Vintage name with soft, romantic feel."
+    },
+    {
+      "id": 20,
+      "name": "Michael",
+      "gender": "Boy",
+      "origin": "Hebrew",
+      "meaning": "Who is like God? Timeless biblical name with universal recognition."
+    },
+    {
+      "id": 21,
+      "name": "Abigail",
+      "gender": "Girl",
+      "origin": "Hebrew",
+      "meaning": "My father's joy. Biblical name that's both traditional and fresh."
+    },
+    {
+      "id": 22,
+      "name": "Daniel",
+      "gender": "Boy",
+      "origin": "Hebrew",
+      "meaning": "God is my judge. Strong biblical name with enduring popularity."
+    },
+    {
+      "id": 23,
+      "name": "Emily",
+      "gender": "Girl",
+      "origin": "Latin",
+      "meaning": "Rival or industrious. Classic, feminine name with timeless appeal."
+    },
+    {
+      "id": 24,
+      "name": "Henry",
+      "gender": "Boy",
+      "origin": "German",
+      "meaning": "Ruler of the household. Distinguished vintage name making comeback."
+    },
+    {
+      "id": 25,
+      "name": "Luna",
+      "gender": "Girl",
+      "origin": "Latin",
+      "meaning": "Moon. Celestial name with mystical, modern appeal."
+    }
+  ]
+}
