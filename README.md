@@ -1,161 +1,43 @@
-# Baby Name Swiper 👶💙💗
+# Svelte + Vite
 
-A fun, Tinder-style swipe interface for discovering and saving baby names.
+This template should help get you started developing with Svelte in Vite.
 
-![Status](https://img.shields.io/badge/status-in%20development-yellow)
-![License](https://img.shields.io/badge/license-MIT-blue)
+## Recommended IDE Setup
 
----
+[VS Code](https://code.visualstudio.com/) + [Svelte](https://marketplace.visualstudio.com/items?itemName=svelte.svelte-vscode).
 
-## 🎯 What It Does
+## Need an official Svelte framework?
 
-Swipe through hundreds of baby names with a simple, intuitive interface:
-- **👉 Swipe right** to like a name
-- **👈 Swipe left** to pass
-- **❤️ View favorites** to review your liked names
-- **💾 Auto-save** your progress locally
+Check out [SvelteKit](https://github.com/sveltejs/kit#readme), which is also powered by Vite. Deploy anywhere with its serverless-first approach and adapt to various platforms, with out of the box support for TypeScript, SCSS, and Less, and easily-added support for mdsvex, GraphQL, PostCSS, Tailwind CSS, and more.
 
-Perfect for expectant parents overwhelmed by endless name lists!
+## Technical considerations
 
----
+**Why use this over SvelteKit?**
 
-## 🚀 Quick Start
+- It brings its own routing solution which might not be preferable for some users.
+- It is first and foremost a framework that just happens to use Vite under the hood, not a Vite app.
 
-**Prerequisites:** Node.js 18+
+This template contains as little as possible to get started with Vite + Svelte, while taking into account the developer experience with regards to HMR and intellisense. It demonstrates capabilities on par with the other `create-vite` templates and is a good starting point for beginners dipping their toes into a Vite + Svelte project.
 
-```bash
-# Clone and navigate
-git clone <your-repo-url>
-cd baby-name-swiper
+Should you later need the extended capabilities and extensibility provided by SvelteKit, the template has been structured similarly to SvelteKit so that it is easy to migrate.
 
-# Follow setup guide
-cat QUICKSTART.md
+**Why include `.vscode/extensions.json`?**
+
+Other templates indirectly recommend extensions via the README, but this file allows VS Code to prompt the user to install the recommended extension upon opening the project.
+
+**Why enable `checkJs` in the JS template?**
+
+It is likely that most cases of changing variable types in runtime are likely to be accidental, rather than deliberate. This provides advanced typechecking out of the box. Should you like to take advantage of the dynamically-typed nature of JavaScript, it is trivial to change the configuration.
+
+**Why is HMR not preserving my local component state?**
+
+HMR state preservation comes with a number of gotchas! It has been disabled by default in both `svelte-hmr` and `@sveltejs/vite-plugin-svelte` due to its often surprising behavior. You can read the details [here](https://github.com/sveltejs/svelte-hmr/tree/master/packages/svelte-hmr#preservation-of-local-state).
+
+If you have state that's important to retain within a component, consider creating an external store which would not be replaced by HMR.
+
+```js
+// store.js
+// An extremely simple external store
+import { writable } from 'svelte/store'
+export default writable(0)
 ```
-
-See **[QUICKSTART.md](QUICKSTART.md)** for complete setup instructions.
-
----
-
-## 📋 Features
-
-### Current POC
-- ✅ Swipe-based name browsing
-- ✅ Like/dismiss names with gestures or buttons
-- ✅ Favorites collection
-- ✅ Local storage persistence
-- ✅ Mobile responsive design
-- ✅ Progress tracking
-
-### Future Enhancements
-- [ ] Partner mode (compare favorites with partner)
-- [ ] Advanced filters (by origin, length, starting letter)
-- [ ] Undo last swipe
-- [ ] Export favorites to PDF
-- [ ] Name pronunciation audio
-- [ ] Share favorites via link
-
----
-
-## 🛠️ Tech Stack
-
-- **Framework:** Svelte 4
-- **Build Tool:** Vite
-- **Styling:** Tailwind CSS
-- **Storage:** Browser localStorage
-- **Deployment:** Azure Static Web Apps (planned)
-
----
-
-## 📁 Project Structure
-
-```
-src/
-├── lib/
-│   ├── components/     # Svelte UI components
-│   ├── stores/         # State management
-│   └── data/           # Name dataset JSON
-├── app.css             # Tailwind imports
-├── App.svelte          # Root component
-└── main.js             # Entry point
-```
-
----
-
-## 📖 Documentation
-
-- **[PRD.md](PRD.md)** - Product requirements & implementation checklist
-- **[QUICKSTART.md](QUICKSTART.md)** - Step-by-step setup guide
-- **[.github/copilot-instructions.md](.github/copilot-instructions.md)** - AI coding agent guidelines
-
----
-
-## 🧪 Development
-
-```bash
-# Start dev server
-npm run dev
-
-# Build for production
-npm run build
-
-# Preview production build
-npm run preview
-```
-
----
-
-## 📊 Name Dataset
-
-Sample dataset included: **25 popular names**
-
-To expand:
-1. Edit `src/lib/data/names.json`
-2. Use sample format from `sample-names.json`
-3. Sources: [SSA](https://www.ssa.gov/oact/babynames/), [Behind the Name](https://www.behindthename.com/)
-
----
-
-## 🚢 Deployment
-
-### Azure Static Web Apps (Planned)
-1. Build: `npm run build`
-2. Deploy `dist/` folder to Azure
-3. Configure custom domain in Azure portal
-
----
-
-## 🤝 Contributing
-
-This is a personal project, but suggestions welcome!
-
-1. Fork the repo
-2. Create feature branch
-3. Make your changes
-4. Submit pull request
-
----
-
-## 📝 License
-
-MIT License - feel free to use for your own baby name journey!
-
----
-
-## 🎨 Design Inspiration
-
-- **Tinder** - Card swipe mechanics
-- **Duolingo** - Simple, focused UI
-- **Headspace** - Playful animations
-
----
-
-## 💡 Tips for Use
-
-- **Start with filters?** No! Just swipe - you'll discover names you wouldn't have searched for
-- **How many to swipe?** Go through at least 50-100 before reviewing favorites
-- **Partner sharing?** Both swipe independently, then compare favorites lists
-- **Too many likes?** Be more selective on second pass through favorites
-
----
-
-**Happy name hunting!** 🍼✨
